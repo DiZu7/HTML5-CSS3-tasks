@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  flex-basis: 300px;
+  flex-grow: 1;
+}
