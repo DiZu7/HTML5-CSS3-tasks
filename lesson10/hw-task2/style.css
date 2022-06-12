@@ -11,7 +11,7 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 0;
+  flex-shrink: 1;
 }
 
 .article {
