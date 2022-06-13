@@ -3,9 +3,12 @@
 }
 
 html {
-  margin: 32px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+}
+
+section {
+  margin: 32px;
 }
 
 .title {
@@ -18,17 +21,18 @@ p {
   line-height: 28px;
 }
 
-b {
+.technology {
   letter-spacing: 3px;
   font-size: 24px;
   opacity: 0.8;
   text-decoration: underline;
+  font-weight: 900;
 }
 
 a {
   text-decoration: none;
 }
 
-em {
+.translation {
   color: grey;
 }
