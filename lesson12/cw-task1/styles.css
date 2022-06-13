@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 
-html {
+body {
   margin: 32px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
 
 .title {
-  letter-spacing: 20px;
+  word-spacing: 20px;
   text-transform: uppercase;
   text-align: center;
 }
