@@ -1,10 +1,15 @@
-* {
+/* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  width: 100vh;
 }
 
 .gallery {
   display: flex;
-  overflow-x: scroll;
 }
 
 .gallery:hover {
@@ -12,5 +17,8 @@
 }
 
 .thumb {
+  display: flex;
   margin: 8px;
+  flex-shrink: 0;
+  flex-grow: 1;
 }

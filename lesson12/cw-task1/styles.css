@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.title {
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  line-height: 28px;
+}
+
+b {
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+em {
+  color: grey;
+}
