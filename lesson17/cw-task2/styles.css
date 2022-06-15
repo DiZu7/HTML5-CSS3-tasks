@@ -41,6 +41,11 @@ thead {
   background-color: aqua;
   font-weight: 700;
 }
+
 caption {
   margin-bottom: 8px;
+}
+
+tfoot {
+  font-weight: 700;
 }
