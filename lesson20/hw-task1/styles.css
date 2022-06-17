@@ -9,14 +9,15 @@
 }
 
 .spinner {
-  font-family: monospace;
-  font-size: 16px;
-  text-transform: uppercase;
+  
   margin: auto;
 }
 
 .spinner-text {
   animation: blinking 2s infinite linear;
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .circle {
