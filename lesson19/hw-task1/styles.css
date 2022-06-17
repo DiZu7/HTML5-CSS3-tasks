@@ -23,5 +23,5 @@
   width: 10px;
   height: 4px;
   border-radius: 2px;
-  animation: moving 2s alternate infinite, blinking 2s infinite;
+  animation: blinking 2s infinite, moving 2s alternate infinite;
 }
