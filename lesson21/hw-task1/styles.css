@@ -38,7 +38,7 @@ h1 {
 .section {
   padding: 0.5em;
   width: 60%;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
 .news {
@@ -69,6 +69,7 @@ h1 {
   margin-bottom: 0.5em;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .nav-list-link {
