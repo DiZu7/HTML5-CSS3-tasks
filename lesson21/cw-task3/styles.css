@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 18px;
 }
@@ -11,7 +15,7 @@ html {
 }
 
 .font-in-vw {
-  font-size: 5wv;
+  font-size: 5vw;
 }
 
 .font-in-percents {
