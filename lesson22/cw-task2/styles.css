@@ -35,12 +35,6 @@
     display: flex;
   }
 }
-.navigation {
-  width: calc(100% / 2);
-}
-.products-list {
-  width: calc(100% / 2);
-}
 
 @media screen and (min-width: 900px) {
   .content {
