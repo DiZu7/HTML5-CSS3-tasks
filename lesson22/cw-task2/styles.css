@@ -14,7 +14,6 @@
 
 .news {
   background-color: #0ff;
-  flex: 2 1 auto;
 }
 
 .text {
@@ -34,7 +33,6 @@
 @media screen and (min-width: 600px) {
   .products {
     display: flex;
-    flex: 4 1 auto;
   }
 }
 
