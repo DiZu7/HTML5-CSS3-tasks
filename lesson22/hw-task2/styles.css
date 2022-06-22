@@ -99,7 +99,7 @@ h1 {
     display: flex;
   }
   .navigation {
-    flex: 1;
+    width: 20%;
   }
   .section {
     flex: 4;
@@ -115,6 +115,12 @@ h1 {
   }
 
   .container {
-    flex: 5;
+    flex: 4;
+  }
+  .navigation {
+    flex: 1;
+  }
+  .section {
+    flex: 3;
   }
 }
