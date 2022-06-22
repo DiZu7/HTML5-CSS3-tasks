@@ -42,7 +42,7 @@ html {
 }
 
 .nav-list-link {
-  display: block;
+  display: inline-block;
   width: 100%;
   margin: 0.5em;
   text-decoration: none;
