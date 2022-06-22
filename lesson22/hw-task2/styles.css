@@ -102,7 +102,7 @@ h1 {
     width: 20%;
   }
   .section {
-    flex-grow: 1;
+    flex: 1;
   }
 }
 
@@ -110,10 +110,11 @@ h1 {
   .main {
     display: flex;
   }
-  .container {
-    width: 80%;
-  }
   .news {
     width: 20%;
+  }
+
+  .container {
+    flex: 1;
   }
 }
