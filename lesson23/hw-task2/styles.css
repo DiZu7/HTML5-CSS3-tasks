@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.content__navigation {
+  background-color: #ff7f50;
+}
+.content__products-list {
+  background-color: #006400;
+}
+.content__news {
+  background-color: #0ff;
+}
+
+.block {
+  min-height: 200px;
+  display: flex;
+}
+.block__text {
+  text-transform: lowercase;
+  font-family: Verdana;
+  background-color: #faebd7;
+  border-radius: 4px;
+  padding: 8px;
+  margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .products {
+    display: flex;
+  }
+  .products__navigation {
+    flex: 1;
+  }
+  .products__products-list {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
+  }
+  .content__news {
+    flex: 1;
+  }
+  .products {
+    flex: 2;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
